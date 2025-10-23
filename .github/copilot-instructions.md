@@ -1,12 +1,10 @@
-# GitHub Copilot - Core Architectural Instructions for Olympus
-
-**Project Vision:** Olympus is an AI-Powered Tabletop RPG Platform, designed to provide a flexible, immersive, and deeply interactive TTRPG environment by leveraging AI for both game masters and players in a collaborative, multi-client environment.
+# GitHub Copilot - Core Architectural Instructions
 
 **Core Guiding Principle for Copilot:** Adhere to the architectural vision. This document provides core architectural directives. More detailed general coding principles and language-specific conventions are provided in other instruction files that the IDE makes available to you based on the current file context or task.
 
 ---
 
-## 1. Olympus Core Architecture & Key Technologies
+## Core Architecture & Key Technologies
 
 - **Clean Architecture Mandate**:
   - Strict layer separation: `Domain` -> `Application` -> `Infrastructure` / `Presentation (API, Clients)`.

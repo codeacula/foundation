@@ -1,0 +1,8 @@
+{
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "docs",
+  "showLineNumber": true
+}
