@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fd979e65708cc1e0",
+        "id": "03136bccaff05361",
         "type": "tabs",
         "children": [
           {
-            "id": "5e606d14a7430fbd",
+            "id": "72799eb04af19d59",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "To Do.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "To Do"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Do.canvas",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for To Do"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To Do.canvas",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from To Do"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To Do.canvas",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of To Do"
+              "title": "Outline of README"
             }
           }
         ]
@@ -185,14 +182,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "8fcb1d779820a366",
+  "active": "72799eb04af19d59",
   "lastOpenFiles": [
-    "tasks",
+    "SUPPORT.md",
+    "SECURITY.md",
     "README.md",
-    "To Do.canvas",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "docs/To Do.canvas",
+    "TODO.md",
+    "templates",
+    "tasks",
     "docs/Pull Requests.md",
     "docs/Index.md",
-    "docs/Architecture.md",
-    "SUPPORT.md"
+    "docs/Architecture.md"
   ]
 }

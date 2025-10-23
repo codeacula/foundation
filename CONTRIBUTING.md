@@ -1,34 +1,15 @@
-# Contributing to Our Project
+# Contributing to Foundation
 
-Thanks for your interest in improving our project! Here's how to get started:
+Thanks for your interest in improving Foundation!
 
-## 🧭 Before You Begin
+Code of Conduct
 
-1. **Search existing issues** to avoid duplicates.
-2. **Open an issue** before submitting a Pull Request - let's discuss!
-3. Join us on **[Discord](https://discord.gg/sTgnMduGCF)** to chat ideas, blockers, or collab opportunities.
+Reporting bugs/features
 
-## 🛠️ Dev Setup
+Further Contact
 
-1. Clone the repo
-2. Run setup scripts (TBD)
-3. Use `.editorconfig` and style rules to stay consistent
+Environment Setup
 
-> NOTE: This project uses **event sourcing**, **CQRS**, and **modular domain layers**. Take time to understand the architecture before modifying aggregates or services.
+Coding Standard & Philosophy
 
-## ✨ Code Guidelines
-
-- Follow the existing patterns (value objects, aggregates, MediatR commands).
-- Keep AI prompts and plugin config declarative.
-- Structure new features like a vertical slice.
-
-## ✅ Pull Request Checklist
-
-- [ ] Related issue exists
-- [ ] Feature or fix is MVP-compatible or isolated
-- [ ] Tests or manual validation steps included
-- [ ] Does not break bot or API
-
-## 🧪 Test & Validate
-
-
+Pull requests
