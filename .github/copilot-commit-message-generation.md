@@ -1,6 +1,6 @@
-# GitHub Copilot - Commit Message Generation for Olympus
+# GitHub Copilot - Commit Message Generation for Foundation
 
-You are generating a commit message for the Olympus project. All commit messages MUST follow the Conventional Commits specification.
+You are generating a commit message for the Foundation project. All commit messages MUST follow the Conventional Commits specification.
 
 1. **Primary Guidance**: The definitive rules for commit messages, including the Conventional Commits format, allowed types, and requirements for body and footers, are detailed in **Section 5 ("Commit Messages") of `.github/copilot-instructions.md`**. Refer to it for comprehensive understanding.
 

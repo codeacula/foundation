@@ -46,4 +46,4 @@ Once you have the task number, do the following:
 ## Variable Definitions
 
 - **Task ID**: The number of the task initially given to you.
-- **Task Details**: The description of the task pulled from `codeacula/olympus` on GitHub
+- **Task Details**: The description of the task pulled from `codeacula/foundation` on GitHub

@@ -1,5 +1,5 @@
 name: Bug Report
-description: Reproducible defect in the Olympus codebase
+description: Reproducible defect in the Foundation codebase
 title: "[Bug] <short summary>"
 labels: ["bug", "needs triage"]
 body:

@@ -289,7 +289,7 @@ Type declarations
 - **Query Definition**:
 
   ```csharp
-  namespace Olympus.Application.Characters.Queries.GetCharacterDetails;
+  namespace Foundation.Application.Characters.Queries.GetCharacterDetails;
 
   public sealed record GetCharacterDetailsQuery(
       Guid CharacterId) : IRequest<Result<CharacterDetailsDto, Error>>;

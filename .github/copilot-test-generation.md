@@ -1,6 +1,6 @@
-# GitHub Copilot - Test Generation Guidelines for Olympus (Using Moq)
+# GitHub Copilot - Test Generation Guidelines for Foundation (Using Moq)
 
-You are generating unit tests for a C# class in the Olympus project. Your goal is to create comprehensive, readable, and maintainable tests using Moq as the mocking framework.
+You are generating unit tests for a C# class in the Foundation project. Your goal is to create comprehensive, readable, and maintainable tests using Moq as the mocking framework.
 
 1. **Primary Guidance**:
    - The definitive testing philosophy, conventions (including AAA pattern, naming `MethodUnderTest_GivenCondition_ShouldExpectedResult`), tooling (Moq, FluentAssertions, AutoFixture), and general best practices are detailed in the testing section of `.github/copilot-instructions.md`. You MUST adhere to all rules and guidelines in that section.
@@ -10,7 +10,7 @@ You are generating unit tests for a C# class in the Olympus project. Your goal i
    - **Identify Testable Units**: When given a C# class, identify all public methods. Each distinct logical path, condition, or outcome for these methods should be a candidate for a separate test method.
    - **Test Class Structure**:
        - Name the test class `<ClassNameUnderTest>Tests.cs` (e.g., `MyServiceTests.cs` for `MyService.cs`).
-       - Place the test file in the correct test project, mirroring the source file's folder structure (e.g., tests for `src/Olympus.Application/Services/MyService.cs` go into `tests/Olympus.Tests.Application/Services/MyServiceTests.cs`).
+       - Place the test file in the correct test project, mirroring the source file's folder structure (e.g., tests for `src/Foundation.Application/Services/MyService.cs` go into `tests/Foundation.Tests.Application/Services/MyServiceTests.cs`).
        - Include necessary usings: `Xunit`, `FluentAssertions`, `Moq`, `AutoFixture`, and the namespace of the class under test.
        - Typically, include private readonly fields for Moq `Mock<IDependency>` objects and a field for the System Under Test (SUT).
        - Initialize `Mock` objects and the SUT in the test class constructor. `AutoFixture` can be helpful here for creating the SUT or concrete dependencies. Pass `mockDependency.Object` to the SUT's constructor.

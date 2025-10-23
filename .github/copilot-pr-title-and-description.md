@@ -1,6 +1,6 @@
-# GitHub Copilot - PR Title and Description Generation for Olympus
+# GitHub Copilot - PR Title and Description Generation for Foundation
 
-You are generating the title and description for a Pull Request (PR) in the Olympus project. Your goal is to provide a clear, concise summary that helps reviewers understand the changes by populating the project's PR template.
+You are generating the title and description for a Pull Request (PR) in the Foundation project. Your goal is to provide a clear, concise summary that helps reviewers understand the changes by populating the project's PR template.
 
 1. **Primary Guidance**:
    - The general coding standards, architectural principles, and commit message conventions are defined in the main `.github/copilot-instructions.md`. These will inform the content of the PR.
@@ -29,8 +29,8 @@ You are generating the title and description for a Pull Request (PR) in the Olym
     - **`## 🛠️ Implementation Highlights (Optional)`**:
         - Based on the code changes, identify significant architectural decisions, new patterns/libraries introduced, or core components heavily modified.
         - Suggest 1-2 bullet points if applicable. Examples:
-            - "Identified new service: `src/Olympus.Application/Services/NewServiceName.cs`."
-            - "Major refactoring in `src/Olympus.Domain/Aggregates/SomeAggregate.cs`."
+            - "Identified new service: `src/Foundation.Application/Services/NewServiceName.cs`."
+            - "Major refactoring in `src/Foundation.Domain/Aggregates/SomeAggregate.cs`."
         - For AI-related changes, highlight specific AI model integrations, prompt modifications, or context management improvements. If AI capabilities are expanded, note any new player-facing features these enable.
         - If no major highlights, suggest: "No major architectural highlights for this PR." or leave blank for developer.
 

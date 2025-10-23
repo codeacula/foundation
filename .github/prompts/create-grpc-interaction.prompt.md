@@ -12,11 +12,11 @@ mode: 'edit'
 
 Create a gRPC interaction based on the domain and interaction provided, remembering to follow the coding and AI agent guidelines. Before performing any action, ensure you have the necessary information to continue - if you don't, ask the user for it. Then, follow these steps:
 
-1. Create a folder: `src/Olympus.Application/Grpc/{Domain}/{Interaction}`.
-1. Create `src/Olympus.Application/Grpc/{Domain}/{Interaction}/{Interaction}Response.cs`:
+1. Create a folder: `src/Foundation.Application/Grpc/{Domain}/{Interaction}`.
+1. Create `src/Foundation.Application/Grpc/{Domain}/{Interaction}/{Interaction}Response.cs`:
 
     ```csharp
-    namespace Olympus.Application.Grpc.Ai.{Interaction};
+    namespace Foundation.Application.Grpc.Ai.{Interaction};
 
     [ProtoContract]
     public sealed record {Interaction}Response
@@ -33,18 +33,18 @@ Create a gRPC interaction based on the domain and interaction provided, remember
     }
     ```
 
-1. Create `src/Olympus.Application/Grpc/{Domain}/{Interaction}/{Interaction}Result.cs`.
+1. Create `src/Foundation.Application/Grpc/{Domain}/{Interaction}/{Interaction}Result.cs`.
 
     ```csharp
-    namespace Olympus.Application.Grpc.Ai.{Interaction};
+    namespace Foundation.Application.Grpc.Ai.{Interaction};
 
     public sealed record {Interaction}Result(string Message);
     ```
 
-1. Create `src/Olympus.Application/Grpc/{Domain}/{Interaction}/{Interaction}Request.cs`.
+1. Create `src/Foundation.Application/Grpc/{Domain}/{Interaction}/{Interaction}Request.cs`.
 
     ```csharp
-    namespace Olympus.Application.Grpc.Ai.{Interaction};
+    namespace Foundation.Application.Grpc.Ai.{Interaction};
 
     [ProtoContract]
     public sealed record {Interaction}Request : IRequest<{Interaction}Response>
@@ -61,20 +61,20 @@ Create a gRPC interaction based on the domain and interaction provided, remember
     }
     ```
 
-1. Create `src/Olympus.Application/Grpc/{Domain}/{Interaction}/{Interaction}Command.cs`.
+1. Create `src/Foundation.Application/Grpc/{Domain}/{Interaction}/{Interaction}Command.cs`.
 
     ```csharp
-    namespace Olympus.Application.Grpc.Ai.{Interaction};
+    namespace Foundation.Application.Grpc.Ai.{Interaction};
 
     public sealed record {Interaction}Command(string InteractionText) : IRequest<{Interaction}Response>;
     ```
 
-1. Create `src/Olympus.Application/Grpc/{Domain}/{Interaction}/{Interaction}Handler.cs`.
+1. Create `src/Foundation.Application/Grpc/{Domain}/{Interaction}/{Interaction}Handler.cs`.
 
     ```csharp
     using Microsoft.Extensions.Logging;
 
-    namespace Olympus.Application.Grpc.Ai.{Interaction};
+    namespace Foundation.Application.Grpc.Ai.{Interaction};
 
     internal sealed partial class {Interaction}Handler(ILogger<{Interaction}Handler> logger) : IRequestHandler<{Interaction}Request, {Interaction}Response>
     {
@@ -90,7 +90,7 @@ Create a gRPC interaction based on the domain and interaction provided, remember
         catch (Exception ex)
         {
           ErrorProcessingRequest(_logger, ex);
-          throw new OlympusInvalidResponseException("An error occurred while processing the request.", ex);
+          throw new FoundationInvalidResponseException("An error occurred while processing the request.", ex);
         }
       }
 

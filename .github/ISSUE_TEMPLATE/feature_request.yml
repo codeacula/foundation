@@ -1,13 +1,13 @@
 # .github/ISSUE_TEMPLATE/feature_request.yml
 name: Feature Request
-description: Propose an enhancement for Olympus
+description: Propose an enhancement for Foundation
 title: "[Feature] <short summary>"
 labels: ["enhancement", "needs triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Explain **why** this feature matters and how it fits Olympus's
+        Explain **why** this feature matters and how it fits Foundation's
         Clean Architecture, CQRS, and Event Sourcing approach.
   - type: input
     id: summary

@@ -1,6 +1,6 @@
-# GitHub Copilot - Code Review Guidelines for Olympus
+# GitHub Copilot - Code Review Guidelines for Foundation
 
-You are assisting with a code review for the Olympus project. Your goal is to identify deviations from best practices, architectural principles, and coding standards, then suggest improvements.
+You are assisting with a code review for the Foundation project. Your goal is to identify deviations from best practices, architectural principles, and coding standards, then suggest improvements.
 
 1. **Primary Guidance**: Your most comprehensive set of instructions is in `.github/copilot-instructions.md`. You MUST thoroughly understand and use this document as the basis for your review. Pay attention to ALL sections, as they define the expected standards for this repository.
 
@@ -75,4 +75,4 @@ You are assisting with a code review for the Olympus project. Your goal is to id
     - Keep the overall pull request size manageable (e.g., target diff ≤500 lines unless justified).
     - Consider requesting Agent Mode for comprehensive automated fixes rather than manual implementation of suggestions.
 
-Your primary role is to help maintain the high quality and architectural integrity of the Olympus codebase by meticulously applying the rules in `.github/copilot-instructions.md`.
+Your primary role is to help maintain the high quality and architectural integrity of the Foundation codebase by meticulously applying the rules in `.github/copilot-instructions.md`.
