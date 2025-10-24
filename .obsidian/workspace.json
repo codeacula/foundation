@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CONTRIBUTING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CONTRIBUTING"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CONTRIBUTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for CONTRIBUTING"
             }
           },
           {
@@ -184,9 +184,10 @@
   },
   "active": "72799eb04af19d59",
   "lastOpenFiles": [
+    "docs/Coding Standards.md",
+    "README.md",
     "SUPPORT.md",
     "SECURITY.md",
-    "README.md",
     "CONTRIBUTING.md",
     "CODE_OF_CONDUCT.md",
     "docs/To Do.canvas",

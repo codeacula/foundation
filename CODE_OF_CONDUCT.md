@@ -16,7 +16,7 @@ Similarly, if you're incapable of not seeing human rights as political, you don'
 ## ✅ We Encourage
 
 - Curiosity and mutual respect
-- LGBTQ+ and diverse voices
+- LGBTQ+ (El Jibble) and diverse voices
 - Honest feedback, kindly delivered
 - Thoughtful technical and creative contributions
 
