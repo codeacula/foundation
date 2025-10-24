@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "docs",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "promptDelete": false
 }
